@@ -1,0 +1,75 @@
+{
+  "notifications": {
+    "auth_failed": "Ошибка аутентификации. Проверьте токен доступа.",
+    "reconnect_failed": "Не удалось восстановить подключение к Home Assistant после {count} попыток."
+  },
+  "panel": {
+    "auth_failed": "Ошибка аутентификации. Проверьте токен доступа.",
+    "brightness": "Яркость",
+    "browser_truncated": "Показаны первые {count} результатов. Уточните запрос, чтобы сузить поиск.",
+    "color_temp": "Цветовая температура",
+    "connecting": "Подключение…",
+    "disconnected_reconnecting": "Соединение разорвано. Повторное подключение…",
+    "hue": "Оттенок",
+    "load_entities_failed": "Не удалось загрузить список сущностей. Попробуйте еще раз.",
+    "loading_entities": "Загрузка сущностей…",
+    "manage_entities_title": "Управление сущностями",
+    "no_entities_found": "Сущности не найдены",
+    "no_entities_match": "Нет сущностей, соответствующих запросу",
+    "no_entities_monitored": "Нет отслеживаемых сущностей. Добавьте их через браузер.",
+    "not_configured": "Не настроено. Укажите URL и токен Home Assistant в настройках.",
+    "save_failed": "Не удалось сохранить список отслеживаемых сущностей",
+    "save_failed_no_data_dir": "Не удалось сохранить: каталог данных плагина недоступен",
+    "search_placeholder": "Поиск сущностей…",
+    "state_on_brightness": "Вкл. · {percent}%",
+    "status_fallback": "Статус: {status}",
+    "unreachable": "Не удается связаться с Home Assistant. Проверьте URL и убедитесь, что сервер запущен."
+  },
+  "settings": {
+    "shortcut_entity": {
+      "description": "ID сущности Home Assistant для отображения и переключения на этой плитке (например, light.living_room)."
+    },
+    "shortcut_entity_1": {
+      "label": "Быстрое переключение 1 — ID сущности"
+    },
+    "shortcut_entity_2": {
+      "label": "Быстрое переключение 2 — ID сущности"
+    },
+    "shortcut_entity_3": {
+      "label": "Быстрое переключение 3 — ID сущности"
+    },
+    "shortcut_entity_4": {
+      "label": "Быстрое переключение 4 — ID сущности"
+    },
+    "show_entity_count": {
+      "label": "Показывать количество сущностей в виджете"
+    },
+    "token": {
+      "description": "Создайте токен в Home Assistant в разделе «Профиль» → «Безопасность» → «Токены длительного доступа»",
+      "label": "Токен длительного доступа"
+    },
+    "url": {
+      "description": "URL-адрес вашего экземпляра Home Assistant (например, http://homeassistant.local:8123)",
+      "label": "URL Home Assistant"
+    }
+  },
+  "shortcut": {
+    "label_1": "Быстрое переключение 1",
+    "label_2": "Быстрое переключение 2",
+    "label_3": "Быстрое переключение 3",
+    "label_4": "Быстрое переключение 4",
+    "panel_label": "Управление сущностями",
+    "title": "Home Assistant"
+  },
+  "widget": {
+    "refreshing_connection": "Обновление соединения…",
+    "status_auth_failed": "Ошибка аутентификации",
+    "status_connected": "Подключено",
+    "status_connecting": "Подключение…",
+    "status_disconnected": "Отключено",
+    "status_unconfigured": "Не настроено",
+    "status_unreachable": "Недоступно",
+    "tooltip": "Home Assistant: {status}",
+    "tooltip_entities": "Home Assistant: {status} (сущностей: {count})"
+  }
+}
